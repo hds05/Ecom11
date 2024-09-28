@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  /* width: 100%; */
+  /* height: 100vh; */
+  background: rgba(0, 0, 0, 0.596);
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 0px 10px 10px 10px; */
+  /* text-align: center; */
+  justify-content: center;
+}
+
+.headr {
+  width: 100%;
+  height: 7vh;
+  background: white;
+  color: black;
+}
+
+.footr {
+  width: 100%;
+  height: 50vh;
+  background: white;
+  color: black;
+  margin-top: 30px;
+}
+
+.navbar-nav :hover {
+  border-bottom: 1px solid black;
+  background: rgb(129, 42, 100);
+  color: white;
+}
+
+.headphn {
+  border-radius: 30px;
+  width: 28%;
+  /* height: 40%; */
+  background: white;
+  margin: 25px;
+
+}
+
+.atag {
+  text-decoration: none;
+  color: white;
+  background: black;
+}
+
+.img {
+  width: 100%;
+  /* height: 60%; */
+  text-align: center;
+  /* background-image: url(head1.jpg); */
+}
+
+.text {
+  /* width: 100%;
+  height: 40%; */
+  background: black;
+  border-radius: 0px 0px 30px 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.btn1 {
+  padding: 0px;
+  background: black;
+  border: 0px;
+}
